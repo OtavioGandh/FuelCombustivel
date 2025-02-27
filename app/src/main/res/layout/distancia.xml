@@ -7,10 +7,12 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="Button"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Avançar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -56,6 +58,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Ex: 150Km"
+        android:inputType="number"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
         android:layout_margin="16dp"/>
